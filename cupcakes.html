@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Cupcakes | Toronto Cupcake</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Notification Bar -->
+    <div class="notification-bar">
+        <p>USA TARIFFS - Important Update for International Orders | <span id="current-date">Sunday, December 7, 2025</span></p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Toronto Cupcake</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="cupcakes.html" class="active">Cupcakes</a></li>
+            <li><a href="corporate-events.html">Corporate</a></li>
+            <li><a href="occasions.html">Occasions</a></li>
+            <li><a href="delivery.html">Delivery</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html" class="cart-btn">Cart (0)</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <h1>Our Cupcake Selection</h1>
+        <p style="margin-top: 10px; font-size: 1.2rem;">Baked Fresh Daily with the Finest Ingredients</p>
+    </header>
+
+    <!-- Main Content -->
+    <section class="main-content">
+        <div class="container">
+            
+            <div class="product-grid">
+                
+                <!-- Row 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/chocolatepeanutbutter.webp" alt="Chocolate Peanut Butter Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Chocolate Peanut Butter</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-1">QTY</label>
+                                <input type="number" id="qty-1" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/chocolatehazelnut.webp" alt="Chocolate Hazelnut Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Chocolate Hazelnut</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-2">QTY</label>
+                                <input type="number" id="qty-2" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/vanillacoconut.webp" alt="Vanilla Coconut Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Vanilla Coconut</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-3">QTY</label>
+                                <input type="number" id="qty-3" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/chocolatecoconut.webp" alt="Chocolate Coconut Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Chocolate Coconut</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-4">QTY</label>
+                                <input type="number" id="qty-4" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/chocolatechocolate.webp" alt="Chocolate Chocolate Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Chocolate Chocolate</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-5">QTY</label>
+                                <input type="number" id="qty-5" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/chocolatevanilla.webp" alt="Chocolate Vanilla Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Chocolate Vanilla</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-6">QTY</label>
+                                <input type="number" id="qty-6" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/redvelvet.webp" alt="Red Velvet Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Red Velvet</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-7">QTY</label>
+                                <input type="number" id="qty-7" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/vanillavanilla.webp" alt="Vanilla Vanilla Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Vanilla Vanilla</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-8">QTY</label>
+                                <input type="number" id="qty-8" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/vanillachocolate.webp" alt="Vanilla Chocolate Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Vanilla Chocolate</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-9">QTY</label>
+                                <input type="number" id="qty-9" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/vanillachocolateganache.webp" alt="Vanilla Chocolate Ganache Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Vanilla Chocolate Ganache</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-10">QTY</label>
+                                <input type="number" id="qty-10" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/chocolatecarmel.webp" alt="Chocolate Caramel Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Chocolate Caramel</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-11">QTY</label>
+                                <input type="number" id="qty-11" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/vanillacarmel.webp" alt="Vanilla Caramel Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Vanilla Caramel</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-12">QTY</label>
+                                <input type="number" id="qty-12" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 3 & Others -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/chocolatetoffee.webp" alt="Chocolate Toffee Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Chocolate Toffee</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-13">QTY</label>
+                                <input type="number" id="qty-13" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/lemon.webp" alt="Lemon Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Lemon</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-14">QTY</label>
+                                <input type="number" id="qty-14" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/chocolatemocha.webp" alt="Chocolate Mocha Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Chocolate Mocha</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-15">QTY</label>
+                                <input type="number" id="qty-15" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/chocolateoreo.webp" alt="Chocolate Oreo Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Chocolate Oreo</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-16">QTY</label>
+                                <input type="number" id="qty-16" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/hummingbird.webp" alt="Hummingbird Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Hummingbird</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-17">QTY</label>
+                                <input type="number" id="qty-17" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/chocolatevanillachocolateganache.webp" alt="Chocolate Vanilla Ganache Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Chocolate Vanilla Ganache</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-18">QTY</label>
+                                <input type="number" id="qty-18" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/vanillastrawberry.webp" alt="Vanilla Strawberry Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Vanilla Strawberry</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-19">QTY</label>
+                                <input type="number" id="qty-19" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/redvelvetraspberry.webp" alt="Red Velvet Raspberry Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Red Velvet Raspberry</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-20">QTY</label>
+                                <input type="number" id="qty-20" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/chocolatechocolateganache.webp" alt="Chocolate Chocolate Ganache Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Chocolate Choc Ganache</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-21">QTY</label>
+                                <input type="number" id="qty-21" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                 <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/redvelvetfudge.webp" alt="Red Velvet Fudge Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Red Velvet Fudge</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-22">QTY</label>
+                                <input type="number" id="qty-22" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/hotfudgesundae.webp" alt="Hot Fudge Sundae Cupcake">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Hot Fudge Sundae</h3>
+                        <div class="product-actions">
+                            <div class="qty-selector">
+                                <label for="qty-23">QTY</label>
+                                <input type="number" id="qty-23" value="1" min="1">
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="corporate-events.html">Corporate Events</a>
+                <a href="cupcakes.html">Cupcakes</a>
+                <a href="occasions.html">Occasions</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Careers</a>
+            </div>
+            <p class="copyright">&copy; 2025 Toronto Cupcake. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
