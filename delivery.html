@@ -14,7 +14,7 @@
 
     <!-- Notification Bar -->
     <div class="notification-bar">
-        <p>USA TARIFFS - Important Update for International Orders</p>
+        <p>USA TARIFFS - Important Update for International Orders | <span id="current-date">Sunday, December 7, 2025</span></p>
     </div>
 
     <!-- Navigation -->
@@ -22,15 +22,15 @@
         <div class="logo">Toronto Cupcake</div>
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html" class="">About</a></li>
-            <li><a href="cupcakes.html" class="">Cupcakes</a></li>
-            <li><a href="corporate-events.html" class="">Corporate</a></li>
-            <li><a href="occasions.html" class="">Occasions</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="cupcakes.html">Cupcakes</a></li>
+            <li><a href="corporate-events.html">Corporate</a></li>
+            <li><a href="occasions.html">Occasions</a></li>
             <li><a href="delivery.html" class="active">Delivery</a></li>
-            <li><a href="community.html" class="">Community</a></li>
-            <li><a href="faqs.html" class="">FAQs</a></li>
-            <li><a href="contact.html" class="">Contact</a></li>
-            <li><a href="cart.html" class=" cart-btn">Cart (0)</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html" class="cart-btn">Cart (0)</a></li>
         </ul>
         <div class="hamburger">
             <span></span>
@@ -39,11 +39,110 @@
         </div>
     </nav>
 
+    <!-- Page Header -->
+    <header class="page-header">
+        <h1>Cupcake Delivery</h1>
+        <p style="margin-top: 10px; font-size: 1.2rem;">Across Toronto & the GTA</p>
+    </header>
+
     <!-- Main Content -->
     <section class="main-content">
         <div class="container">
-            <h1>Cupcake Delivery</h1>
-            <p>Welcome to our Cupcake Delivery page. Content coming soon.</p>
+            
+            <div class="content-block" style="text-align: center; margin-bottom: 60px;">
+                <h2 style="font-size: 2rem; color: var(--primary-color); margin-bottom: 20px;">Order Delicious Custom Cupcakes for Any Occasion!</h2>
+                <div style="width: 100px; height: 3px; background-color: #ddd; margin: 20px auto;"></div>
+                <p>Toronto Cupcake offers a swift and reliable cupcake delivery service throughout Toronto and the Greater Toronto Area (GTA). Whether you're planning a corporate event, celebrating a special occasion, or simply sending a sweet surprise, we've got you covered!</p>
+                <div style="width: 100px; height: 3px; background-color: #ddd; margin: 20px auto;"></div>
+            </div>
+
+            <div class="content-block">
+                <h2 style="text-align: center; color: var(--primary-light); margin-bottom: 40px;">Why Choose Toronto Cupcake Delivery?</h2>
+                
+                <div class="features-grid" style="grid-template-columns: 1fr; gap: 30px;">
+                    <div class="feature-item" style="display: flex; gap: 20px; align-items: flex-start;">
+                        <div style="font-size: 1.5rem; color: var(--primary-color);">•</div>
+                        <div>
+                            <h3 style="font-size: 1.2rem; margin-bottom: 10px; color: var(--primary-dark);">Fast Delivery</h3>
+                            <p>Need cupcakes ASAP? No problem! We offer fast delivery for most areas within Toronto and the GTA. Just place your order before our cut-off time to ensure your treats arrive fresh and on time the following day.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item" style="display: flex; gap: 20px; align-items: flex-start;">
+                        <div style="font-size: 1.5rem; color: var(--primary-color);">•</div>
+                        <div>
+                            <h3 style="font-size: 1.2rem; margin-bottom: 10px; color: var(--primary-dark);">Custom Designs</h3>
+                            <p>Our cupcakes are not only delicious but also visually stunning. Customize your order with corporate logos, themed designs, or even personalized messages.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item" style="display: flex; gap: 20px; align-items: flex-start;">
+                        <div style="font-size: 1.5rem; color: var(--primary-color);">•</div>
+                        <div>
+                            <h3 style="font-size: 1.2rem; margin-bottom: 10px; color: var(--primary-dark);">Wide Coverage</h3>
+                            <p>From downtown Toronto to Hamilton, Mississauga, Vaughan, Scarborough, and beyond, our delivery service spans approximately 80km around the city. Check our delivery areas <button id="delivery-areas-btn" style="background-color: var(--primary-light); color: white; border: none; padding: 5px 15px; border-radius: 5px; cursor: pointer; font-weight: bold; margin-left: 5px;">Here</button></p>
+                            
+                            <div id="delivery-areas-list" style="display: none; margin-top: 20px; background-color: var(--background-color); padding: 20px; border-radius: 10px;">
+                                <ul style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; list-style: none; padding: 0;">
+                                    <li>Toronto</li>
+                                    <li>Ajax</li>
+                                    <li>Aurora</li>
+                                    <li>Brampton</li>
+                                    <li>Brock</li>
+                                    <li>Burlington</li>
+                                    <li>Caledon</li>
+                                    <li>Clarington</li>
+                                    <li>East Gwillimbury</li>
+                                    <li>Etobicoke</li>
+                                    <li>Georgina</li>
+                                    <li>Halton</li>
+                                    <li>Halton Hills</li>
+                                    <li>Hamilton</li>
+                                    <li>King</li>
+                                    <li>King City</li>
+                                    <li>Markham</li>
+                                    <li>Milton</li>
+                                    <li>Mississauga</li>
+                                    <li>Newmarket</li>
+                                    <li>North York</li>
+                                    <li>Oakville</li>
+                                    <li>Oshawa</li>
+                                    <li>Pickering</li>
+                                    <li>Richmond Hill</li>
+                                    <li>Scarborough</li>
+                                    <li>Scugog</li>
+                                    <li>Stouffville</li>
+                                    <li>Uxbridge</li>
+                                    <li>Vaughan</li>
+                                    <li>Whitby</li>
+                                    <li>Whitchurch</li>
+                                    <li>York</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="width: 100px; height: 3px; background-color: #ddd; margin: 40px auto;"></div>
+
+            <div class="content-block" style="text-align: center;">
+                <p style="font-size: 1.2rem; margin-bottom: 20px;">Ready to order and have your cupcakes delivered? Just click here and</p>
+                <a href="cupcakes.html" class="cta-button" style="background-color: var(--primary-light); color: white; display: inline-block;">Order Now</a>
+                <p style="font-size: 1.2rem; margin-top: 20px;">then select delivery when asked.</p>
+            </div>
+
+            <div style="width: 100px; height: 3px; background-color: #ddd; margin: 40px auto;"></div>
+
+            <div class="content-block" style="background-color: #f9f9f9; padding: 40px; border-radius: 10px; border-left: 5px solid var(--primary-color);">
+                <h3 style="color: var(--primary-dark); margin-bottom: 20px;">For any delivery questions, please call us at:</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 10px;"><strong>North America:</strong> <a href="tel:+18773349468" style="color: var(--primary-color);">+1-877-334-9468</a></li>
+                    <li style="margin-bottom: 10px;"><strong>Outside of North America:</strong> <a href="tel:+0016474789464" style="color: var(--primary-color);">+001-647-478-9464</a></li>
+                    <li><strong>Email:</strong> <a href="mailto:inquiry@torontocupcake.com" style="color: var(--primary-color);">inquiry@torontocupcake.com</a></li>
+                </ul>
+            </div>
+
         </div>
     </section>
 
